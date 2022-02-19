@@ -7,9 +7,11 @@ var div=Number(a)/Number(b);
 alert(sum);
 alert(sub);
 alert(div);
+
 alert(mul);
 
 var name="billy";
+
 if(name==="billy"){
     alert("hi billy");
 }else if(name ==="susy"){
@@ -20,6 +22,7 @@ if(name==="billy"){
 
 var firstName ="bob";
 var lastName ="smith";
+
 if(firstName==="bob"&&lastName==="smith"){
     alert("hi "+" " +firstName+" "+lastName);
 }
