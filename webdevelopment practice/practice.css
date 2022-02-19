@@ -1,0 +1,28 @@
+.container{
+    display:grid;
+    /* grid-template-columns:  1fr 2fr 1fr 1fr; */
+    gap :20px;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    /* grid-template-columns: 300px 400px;
+    grid-template-columns: 49% 33%; */
+    /* grid-template-rows: 1fr 2fr; */
+}
+
+.blue{
+        /* grid-column: 1/-1; */
+        grid-column:span 2;
+        grid-row: 1/3;
+        /* align-self: start; */
+        /* justify-self: start; */
+        
+}
+
+.zone{
+    cursor: pointer;
+    /* display: block; */
+    text-align: center;
+    font-size: 10em;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+
+}
